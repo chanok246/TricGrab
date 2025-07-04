@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TricGrab Sign Up</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('TricGrab.png') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .signup-container {
+      background-color: rgba(113, 255, 106, 0.75);
+      padding: 25px 20px;
+      border-radius: 15px;
+      width: 90%;
+      max-width: 360px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .app-title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #007bff;
+      margin: 0;
+    }
+
+    .tricycle-icon {
+      width: 40px;
+      height: auto;
+    }
+
+    h2 {
+      margin: 15px 0;
+      color: #222;
+    }
+
+    input {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+
+.options {
+  text-align: center;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+     
+     
+     .text{
+         
+         align-text: center;
+     }
+    button {
+      width: 80%;
+      padding: 10px;
+      background-color: #0000ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0033cc;
+    }
+    
+    body {
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="signup-container">
+    <div class="header">
+      <h1 class="app-title">TricGrab</h1>
+      <img src="Motor.png" alt="Tricycle Logo" class="tricycle-icon" />
+    </div>
+
+    <h2>Sign Up</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Password" required />
+      <input type="password" placeholder="Confirm Password" required />
+      <div class="options">
+        <a class="text" href="TricApp2.html">Back to Login</a>
+      </div>
+      <button type="submit">CREATE ACCOUNT</button>
+    </form>
+  </div>
+</body>
+</html>
